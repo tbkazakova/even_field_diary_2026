@@ -114,7 +114,7 @@ main{margin-left:var(--sidebar);min-height:100vh;padding:94px 36px 58px}.diary-s
   opacity: inherit;
 }
 .day-nav .nav-day-date {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   color: #71868e;
 }
