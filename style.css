@@ -107,7 +107,7 @@ main{margin-left:var(--sidebar);min-height:100vh;padding:94px 36px 58px}.diary-s
 
 /* v7: swap visual hierarchy of day/date in sidebar */
 .day-nav .nav-day-number {
-  font-size: inherit;
+  font-size: 11px;
   font-weight: inherit;
   letter-spacing: inherit;
   color: inherit;
@@ -357,4 +357,8 @@ main{margin-left:var(--sidebar);min-height:100vh;padding:94px 36px 58px}.diary-s
   letter-spacing: inherit;
   line-height: inherit;
   text-align: left;
+}
+
+li::marker {
+  color: #345e68; /* Укажите нужный цвет */
 }
